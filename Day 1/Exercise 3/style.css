@@ -7,8 +7,8 @@ body {
 
 p {
   padding: 15px 20px;
-/*  background-color: #AFAFAF; */
-  background-color: #5AB962;
+  background-color: #AFAFAF; 
+  /*background-color: #5AB962;*/
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
