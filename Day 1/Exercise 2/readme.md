@@ -14,3 +14,4 @@
 
 Instructions for Josh
 1. Draw DOM on board & talk about it.
+2. Talk about jQuery selectors, how they relate to CSS, and what they return (vs just plain ole' javascript).
