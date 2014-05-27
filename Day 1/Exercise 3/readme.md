@@ -1,4 +1,4 @@
-#Exercise 1
+#Exercise 3
 ###Selectors in jQuery
 
 1. Open up the .html file in a web browser.

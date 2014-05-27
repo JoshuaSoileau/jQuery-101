@@ -1,4 +1,4 @@
-#Exercise 1
+#Exercise 7
 ###Events in jQuery
 
 Okay jQueriers, it's time to get for reals. We're gonna make a full up game out of this, building on everything we've done to this point.
