@@ -1,0 +1,39 @@
+body {
+  background: #efefef;
+  font: 26px/30px arial;
+  color: white;
+  padding: 20px;
+}
+
+p {
+  padding: 15px 20px;
+  margin: 0;
+  background-color: #9C95D5;
+  border-bottom: 5px solid rgba(0,0,0,0.2);
+
+}
+
+.green {
+  background-color: #5AB962;
+}
+
+.red {
+  background-color: #E40000;
+}
+
+li {
+  list-style: none;
+}
+
+.dropdown-content {
+  padding: 20px 50px 30px;
+  background-color: rgba(0,0,0,0.2);
+  color: rgba(0,0,0,0.7);
+  font-size: 0.7em;
+
+  display: none;
+}
+
+.dropdown-content.first {
+  display: block;
+}

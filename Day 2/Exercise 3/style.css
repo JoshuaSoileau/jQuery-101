@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+html {
+    background: #56E5B4;
+    font-family: 'Open Sans';
+    color: #666;
+    text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 20px 5%;
+  position: relative;
+}
+
+li {
+    display: none;
+    background: #ccc;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    padding: 30% 0%;
+    list-style: none;
+}
+
+h2 {
+    font-size: 2.4em;
+    color: white;
+}
+
+.even {
+    background-color: #e7e7e7;
+}
+
+.active {
+  display: block;
+}
+
+.previous {
+  position: absolute;
+  top: 42%;
+  bottom: 42%;
+  left: 0;
+  width: 8%;
+  background: rgba(0,0,0,0.4);
+}
+
+.previous:after {
+  content: "<";
+  font-size: 3em;
+  color: white;
+  padding-top: 7%;
+  display: inline-block;
+}
+
+.next {
+  position: absolute;
+  top: 42%;
+  bottom: 42%;
+  right: 0;
+  width: 8%;
+  background: rgba(0,0,0,0.4);
+}
+
+.next:after {
+  content: ">";
+  font-size: 3em;
+  color: white;
+  padding-top: 7%;
+  display: inline-block;
+}
+
+.controls {
+  width: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  height: 20px;
+}
+
+.control {
+  width: 12px;
+  height: 12px;
+  border: 2px solid transparent;
+  outline: 2px solid white;
+  margin-right: 10%;
+  background: transparent;
+
+  float: left;
+}
+
+.control:last-of-type {
+  margin-right: 0;
+
+}
+
+.control.active {
+  background-color: white;
+  border: 2px solid rgba(0,0,0,0.6);
+
+}
