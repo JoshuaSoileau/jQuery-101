@@ -44,32 +44,29 @@ $(document).ready(function() {
 
  //  });
 
+  /* The 'setInterval' function will run the code every 1.5 seconds (1500ms) */
+  var intervalNumber = setInterval(function(){
+    addNewBox();
+  }, 750); 
 
 
-  $('body').on('mouseover', '.box', function() {
+  $('body').on('click', '.box', function() {
 
-  	// callback function!
-    $(this).slideUp('slow');
+    $(this).remove();
 
-
-	$(".game-info p span").text( 
+    $(".game-info p span").text( 
     	parseInt( $(".game-info p span").text() ) + 1 
     );
 
-	// Check if all boxes are gone
-	if( !$('.box').length ) {
-		// all the boxes are gone!
-		$('.game-info').html('Oh no! I\'ve been defeated!!! <span>-_-</span>');
-		clearInterval(intervalNumber);
-	}
-
+  	// Check if all boxes are gone
+  	if( !$('.box').length ) {
+  		// all the boxes are gone!
+  		$('.game-info').html('<h3>Oh no! I\'ve been defeated!!! <span>-_-</span></h3>');
+      // You can stop an interval from running by clicking
+  		clearInterval(intervalNumber);
+  	}
 
   })
-
-
-	var intervalNumber = setInterval(function(){
-  	  addNewBox();
-    }, 150); 
 
 
 

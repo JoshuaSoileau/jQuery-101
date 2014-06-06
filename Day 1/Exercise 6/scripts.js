@@ -32,6 +32,7 @@
 // Approach 1
 // Use Math.random() to generate a number between 
 // 000000 and 999999, then concatenate a '#' to it
+
 // $(document).ready(function() {
 
 
@@ -50,6 +51,7 @@
 // Create an array (or string) of all possible characters
 // and create another string of 6 of those characters,
 // chosen at random
+
 // var possibleCharacters = "0123456789abcdef";
 
 // $(document).ready(function() {
